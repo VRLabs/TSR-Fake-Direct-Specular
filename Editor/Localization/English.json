@@ -1,0 +1,14 @@
+{
+    "Properties": [
+        {
+            "Name": "Fake specular",
+            "DisplayName": "Fake specular",
+            "Tooltip": ""
+        },
+        {
+            "Name": "Fake Highlights matcap",
+            "DisplayName": "Fake Highlights Matcap",
+            "Tooltip": "Matcap used for the specular highlights"
+        }
+    ]
+}

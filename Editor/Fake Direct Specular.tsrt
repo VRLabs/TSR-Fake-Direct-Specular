@@ -1,0 +1,7 @@
+void FakeDirectSpecular()
+{
+    float3 fakeHighlights = UNITY_SAMPLE_TEX2D_SAMPLER(_FakeHighlights, _MainTex, remap(ReflectDir, -1, 1, 0.1, 0.9)).rgb * (sin((1 - SquareRoughness) * UNITY_PI)) * _FakeHighlightsIntensity;
+    
+    NDF = fakeHighlights * 50 * (1 - Metallic + (0.1 * Metallic));
+    GFS = 1;
+}
