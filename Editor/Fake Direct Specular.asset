@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: VRLabs.TSR.FakeDirectSpecular
   Name: Fake Specular
-  Version: 1.0
+  Version: master
   Author: VRLabs
   Description: Fake direct specular based on a texture
   EnableProperties:
